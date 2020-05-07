@@ -27,7 +27,7 @@ The above steps can be repeated for any number of files. As shown in the lines 2
 
 **Note:** If some kind of analysis is not required for any question, the name of analysis can be commented out (by putting `#` in front of the line) as shown in the lines 31-32 in the figure above, or it can be removed completely. Commenting it out is recommended as it makes it easier to edit if the analysis is required later.
 
-***Important: Add some data for training***: Please use historical and the current data to train the algorithm in order to develop the word clusters. To do this, simply add responses to open-ended questions in similar surveys in the `response` column in the `topic\full_data_train_word2vec.csv` file. More data is better. See screenshot below for sample. It is recommended to add cleaned text (lower case, without stop words, etc). Functions in `cleaning\cleaning.py` can be referred to for this purpose.
+**IMPORTANT: Add some data for training**: Please use historical and the current data to train the algorithm in order to develop the word clusters. To do this, simply add responses to open-ended questions in similar surveys in the `response` column in the `topic\full_data_train_word2vec.csv` file. More data is better. See screenshot below for sample. It is recommended to add cleaned text (lower case, without stop words, etc). Functions in `cleaning\cleaning.py` can be referred to for this purpose.
 
 ![Word2Vec Data Sample File](misc/data_to_train_word2vec.png)
 
