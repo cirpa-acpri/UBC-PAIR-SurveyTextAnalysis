@@ -1,4 +1,4 @@
-# UBC-PAIR-TextAnalysis
+# UBC-PAIR-SurveyTextAnalysis
 
 Please refer to the user guide and installation instructions
 
@@ -36,7 +36,7 @@ The above steps can be repeated for any number of files. As shown in the lines 2
 
 **Flag Words:** If any words need to be added in the flagged words list, they can be added to the `flag/flag_words.txt` file.
 
-
+**Note on the output:** PDF files are generated with bar graphs for each type of analysis. New folder called output will be generated and PDF files can be accessed in that folder.  
 
 
 
@@ -130,5 +130,4 @@ In order to avoid these kinds of errors, use of Anaconda Prompt instead of Comma
 * Installation of any library can be verified by typing `python` and then `import library_name`. If there is no error, it means the library is installed. Type `exit()` to return back from python to command prompt.
 
 ![Check Pandas Install](misc/check_pandas.png)
-
 
