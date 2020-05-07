@@ -1,6 +1,6 @@
 # UBC-PAIR-SurveyTextAnalysis
 
-Please refer to the user guide and installation instructions
+Please refer to the user guide and installation instructions (Also provided as .docx files)
 
 ## User Guide
 
