@@ -36,7 +36,7 @@ The above steps can be repeated for any number of files. As shown in the lines 2
 
 **Flag Words:** If any words need to be added in the flagged words list, they can be added to the `flag/flag_words.txt` file.
 
-**Note on the output:** PDF files are generated with bar graphs for each type of analysis. New folder called output will be generated and PDF files can be accessed in that folder.  
+**Note on the output:** PDF files are generated with bar graphs for each type of analysis. New folder called `output` will be generated and PDF files can be accessed in that folder.  
 
 
 
