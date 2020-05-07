@@ -1,0 +1,8 @@
+ubc
+school
+schools
+university
+universities
+student
+students
+

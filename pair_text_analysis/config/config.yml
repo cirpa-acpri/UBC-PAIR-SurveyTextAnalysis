@@ -1,0 +1,65 @@
+data:
+    path: /Users/bindu/599/data/UES
+
+# In all the data files please ensure the first column is ID and it contains 
+# a unique sequence to identify each record
+files: 
+
+    file1:
+        - name: UES_2019_Data_Vancouver.csv
+        - id: UES_ID
+        - topic_columns:
+            - Comments_OE
+        - senti_columns:
+            - Comments_OE
+        - kp-unigram_columns:
+            - Comments_OE
+            - L3_2_8_TEXT
+        - kp-bigram_columns:
+            - Comments_OE
+            - L3_2_8_TEXT
+
+    file2:
+        - name: UES_2019_Data_Okanagan.csv
+        - id: UES_ID
+        - topic_columns:
+            - Comments_OE
+            - L3_2_8_TEXT
+        - senti_columns:
+            - Comments_OE
+            - L3_2_8_TEXT
+        #- kp-unigram_columns:
+        #- kp-bigram_columns:
+         
+
+
+# Do not have to change anything below            
+
+stopwords_file:
+    path: config/pair_stopwords.txt
+
+negative_words:
+    path: config/negation_words.txt
+    
+modal_words:
+    path: config/modal_words.txt
+    
+positive_words:
+    path: config/positive_words.txt
+
+contradiction_words:
+    path: config/contradiction_words.txt
+
+googWordVector_File:
+    path: config/GoogleNews-vectors-negative300.bin.gz
+    
+word2Vec_File:
+    path: topic/full_data_train_word2vec.csv
+    
+flag_words:
+    path: flag/flag_words.txt
+
+
+ 
+
+
